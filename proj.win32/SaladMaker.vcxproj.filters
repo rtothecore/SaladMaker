@@ -1,0 +1,177 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="win32">
+      <UniqueIdentifier>{84a8ebd7-7cf0-47f6-b75e-d441df67da40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes">
+      <UniqueIdentifier>{bb6c862e-70e9-49d9-81b7-3829a6f50471}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MyClasses">
+      <UniqueIdentifier>{d0898759-2efd-47e2-b151-dc0c50287621}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MyClasses\Blade">
+      <UniqueIdentifier>{530fc3be-1d1d-4cdb-9ab4-a63abd1ca4c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MyClasses\PolygonSprites">
+      <UniqueIdentifier>{0ef395a3-2720-4e68-a010-d441991a9a92}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MyClasses\PRKit">
+      <UniqueIdentifier>{69027b64-f30b-4c43-9735-7cf4fa1fc158}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AppDelegate.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\HelloWorldScene.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Box2dDirector.cpp">
+      <Filter>MyClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\FruitManager.cpp">
+      <Filter>MyClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GLES-Render.cpp">
+      <Filter>MyClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\MainGameScene.cpp">
+      <Filter>MyClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Missionaries.cpp">
+      <Filter>MyClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\PolygonSplitter.cpp">
+      <Filter>MyClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\TileMap.cpp">
+      <Filter>MyClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\UtilFunc.cpp">
+      <Filter>MyClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\VisibleRect.cpp">
+      <Filter>MyClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\CCBlade.cpp">
+      <Filter>MyClasses\Blade</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Banana.cpp">
+      <Filter>MyClasses\PolygonSprites</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Bomb.cpp">
+      <Filter>MyClasses\PolygonSprites</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Grapes.cpp">
+      <Filter>MyClasses\PolygonSprites</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Pineapple.cpp">
+      <Filter>MyClasses\PolygonSprites</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\PolygonSprite.cpp">
+      <Filter>MyClasses\PolygonSprites</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Strawberry.cpp">
+      <Filter>MyClasses\PolygonSprites</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Watermelon.cpp">
+      <Filter>MyClasses\PolygonSprites</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\PRRatcliffTriangulator.cpp">
+      <Filter>MyClasses\PRKit</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\PRFilledPolygon.cpp">
+      <Filter>MyClasses\PRKit</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\triangulate.cpp">
+      <Filter>MyClasses\PRKit</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\TouchTrailLayer.cpp">
+      <Filter>MyClasses\Blade</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AppDelegate.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\HelloWorldScene.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Box2dDirector.h">
+      <Filter>MyClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\FruitManager.h">
+      <Filter>MyClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GLES-Render.h">
+      <Filter>MyClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\MainGameScene.h">
+      <Filter>MyClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Missionaries.h">
+      <Filter>MyClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\PolygonSplitter.h">
+      <Filter>MyClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\RaycastCallback.h">
+      <Filter>MyClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Tags.h">
+      <Filter>MyClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\TileMap.h">
+      <Filter>MyClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\UtilFunc.h">
+      <Filter>MyClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\VisibleRect.h">
+      <Filter>MyClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\CCBlade.h">
+      <Filter>MyClasses\Blade</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Banana.h">
+      <Filter>MyClasses\PolygonSprites</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Bomb.h">
+      <Filter>MyClasses\PolygonSprites</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Grapes.h">
+      <Filter>MyClasses\PolygonSprites</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Pineapple.h">
+      <Filter>MyClasses\PolygonSprites</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\PolygonSprite.h">
+      <Filter>MyClasses\PolygonSprites</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Strawberry.h">
+      <Filter>MyClasses\PolygonSprites</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Watermelon.h">
+      <Filter>MyClasses\PolygonSprites</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\PRRatcliffTriangulator.h">
+      <Filter>MyClasses\PRKit</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\PRFilledPolygon.h">
+      <Filter>MyClasses\PRKit</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\triangulate.h">
+      <Filter>MyClasses\PRKit</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\TouchTrailLayer.h">
+      <Filter>MyClasses\Blade</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
